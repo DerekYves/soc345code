@@ -1,0 +1,25 @@
+---
+title: "<GIVE THIS A TITLE>"
+author: "Change to your name"
+date: '`r I(format(Sys.Date(), format="%B %d, %Y"))`'
+output:
+    html_notebook: default
+    html_document: default
+---
+
+
+
+
+```{r}
+# The first code "chunk" starts here. Generally, you will always need this code for your work in this class.
+library(lehmansociology)
+library(dplyr)
+library(nycschools)
+library(ggplot2)
+
+```
+
+**Here's an example of some code**
+```{r}
+2 + 2
+```
